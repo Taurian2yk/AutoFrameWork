@@ -9,6 +9,9 @@ Feature: Menu test
     Then I should be on the appropriate products page with title as "<pageHeader>"
 
     Examples:
-    | menu | pageHeader     |
-    | MEN  | The Men's Shop |
-    | BOYS | The Boy's Shop |
+      | menu  | pageHeader       |
+      | MEN   | The Men's Shop   |
+      | BOYS  | The Boys' Shop   |
+      | WOMEN | The Women's Shop |
+      | HOME  | The Home Shop    |
+      | GIRLS | The Girls' Shop  |
